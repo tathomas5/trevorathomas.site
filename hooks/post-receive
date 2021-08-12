@@ -1,0 +1,2 @@
+#!/bin/sh
+git --work-tree=/var/www/trevorathomas.site/public_html --git-dir=/var/repo/trevorathomas.site.git checkout -f

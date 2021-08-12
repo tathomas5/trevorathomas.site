@@ -1,0 +1,70 @@
+:root {
+    --bg-color: #262626;
+    --primary-color: #ffffff;
+    --accent-color: #fca311;
+}
+
+body {
+    background: var(--bg-color);
+    margin: 0;
+    padding: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+h1, h2, h3, h4, p, a {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: 200;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+header aside {
+    margin-left: auto;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+header aside h1 {
+    font-size: 23px;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+main {
+    margin-top: 80px;
+}
+
+main h1 {
+    font-size: 23px;
+}
+
+main section {
+    border-top: 1px solid white;
+    margin-bottom: 40px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: white;
+}
